@@ -1,9 +1,9 @@
-Balanced Parentheses Checker Using Stack (C)
-Overview
+# Balanced Parentheses Checker Using Stack (C)
+## Overview
 
 This C program checks whether a given mathematical expression contains balanced parentheses. It supports three types of brackets: (), {}, and []. The program uses a stack data structure to verify proper opening and closing order.
 
-Data Structures
+## Data Structures
 Character Stack
 char stack[MAX];
 int top = -1;
@@ -17,7 +17,7 @@ top → points to the top of the stack
 
 The stack follows the LIFO (Last In First Out) principle.
 
-Functions
+## Functions
 
 push(char ch)
 Pushes an opening bracket onto the stack.
@@ -28,7 +28,7 @@ Removes and returns the top element from the stack.
 isBalanced(char expr[])
 Checks whether the expression is balanced.
 
-Working:
+## Working:
 
 If an opening bracket is found, it is pushed onto the stack.
 
@@ -54,7 +54,7 @@ Calls isBalanced() to check validity.
 
 Displays whether the parentheses are balanced or not.
 
-Sample Output
+## Sample Output
 
 a + (b − c) ∗ (d
 Unbalanced parenthesis
@@ -65,6 +65,6 @@ Unbalanced parenthesis
 a + (b − c)
 Balanced Parentheses
 
-Conclusion
+## Conclusion
 
 This program demonstrates stack usage for validating parentheses in an expression.
